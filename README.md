@@ -10,6 +10,7 @@
 После загрузки распаковываем 
 
 Или через релиз:
+
 ![image](https://user-images.githubusercontent.com/59537160/232196324-2fbaff2d-c3ea-4200-978d-fca69cf3bebc.png)
 
 Выбираем любой Source Code и после распаковываем
