@@ -40,20 +40,20 @@ with open('points.csv', mode='w', newline='') as csv_file:
         pass
       
       print()
-      delta = (base_point - xt_point)/l
+      delta = abs(base_point - xt_point)/l
 
       if delta > max_delta:
           print("Досыпаем")
           xt_point = base_point - max_delta * l
           print("Характерная точка, м: ", round(xt_point, 2))
-          delta = (base_point - xt_point)/l
+          delta = abs(base_point - xt_point)/l
           print("Уклон:", round(delta*1000,2), "промилле \n")
 
       elif delta < min_delta:
           print("Убираем лишнее")
           xt_point = base_point - min_delta * l
           print("Характерная точка, м: ", round(xt_point, 2))
-          delta = (base_point - xt_point)/l
+          delta = abs(base_point - xt_point)/l
           print("Уклон:", round(delta*1000,2), "промилле \n")
 
       else:
