@@ -28,7 +28,7 @@ with open('points.csv', mode='w', newline='') as csv_file:
       base_point = float(input("Первая точка, м: "))
       if(base_point == 0):
         exit()
-      xt_point = float(input("Вторая точка, м: \n"))
+      xt_point = float(input("Вторая точка, м: "))
       if(xt_point == 0):
         exit()
       try:
@@ -39,6 +39,7 @@ with open('points.csv', mode='w', newline='') as csv_file:
         l = 50
         pass
       
+      print()
       delta = (base_point - xt_point)/l
 
       if delta > max_delta:
