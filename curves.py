@@ -8,7 +8,7 @@ base_point = 1337
 print("Расчет характерных точек для ландшафта\n")
 print("Автор: mgostev.it@gmail.com\n")
 print("Обо всех багах пишите на почту - буду фиксить")
-print("Git-Hub программки: ")
+print("Git-Hub программки: https://github.com/Butaforsky/arc")
 
 while(base_point != 0):
   
