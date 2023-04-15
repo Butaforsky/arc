@@ -4,9 +4,7 @@
 
 Установка:
 Шаг 1
-![image](https://user-images.githubusercontent.com/59537160/232196202-5da1695a-abf5-483f-acf2-bebfd9f67c90.png)
-
-Шаг 2
+![image](https://user-images.githubusercontent.com/59537160/232196202-5da1695a-abf5-483f-acf2-bebfd9f67c90.png)Шаг 2
 ![image](https://user-images.githubusercontent.com/59537160/232196232-64e345bc-3809-4fdc-a57d-f4a14eddaf59.png)
 
 После загрузки распаковываем 
