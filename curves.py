@@ -12,12 +12,14 @@ print("Git-Hub программки: https://github.com/Butaforsky/arc \n\n")
 
 while(base_point != 0):
   
+  print("Введите высоты точек в метрах, используйте точку, а не запятую!")
+  
   base_point = float(input("Первая точка, м: "))
   if(base_point == 0):
     exit()
-  xt_point = float(input("Вторая точкаб м: "))
+  xt_point = float(input("Вторая точка, м: "))
   try:
-     l = float(input("Длинаб м: "))
+     l = float(input("Длина, м: "))
   except: 
      l = 50
      pass
@@ -27,14 +29,14 @@ while(base_point != 0):
   if delta > max_delta:
       print("Досыпаем")
       xt_point = base_point - max_delta * l
-      print("Характерная точка: ", round(xt_point, 2))
+      print("Характерная точка, м: ", round(xt_point, 2))
       delta = (base_point - xt_point)/l
       print("Уклон:", round(delta*1000,2), "промилле \n")
 
   elif delta < min_delta:
       print("Убираем лишнее")
       xt_point = base_point - min_delta * l
-      print("Характерная точка: ", round(xt_point, 2))
+      print("Характерная точка, м: ", round(xt_point, 2))
       delta = (base_point - xt_point)/l
       print("Уклон:", round(delta*1000,2), "промилле \n")
 
