@@ -2,6 +2,20 @@
 
 Консольная программа, которая не умеет варить кофе, но умеет считать характерные точки (ХТ) для ландшафта
 
+Установка:
+Шаг 1
+![image](https://user-images.githubusercontent.com/59537160/232196202-5da1695a-abf5-483f-acf2-bebfd9f67c90.png)
+Шаг 2
+![image](https://user-images.githubusercontent.com/59537160/232196232-64e345bc-3809-4fdc-a57d-f4a14eddaf59.png)
+После загрузки распаковываем 
+
+Или через релиз:
+![image](https://user-images.githubusercontent.com/59537160/232196324-2fbaff2d-c3ea-4200-978d-fca69cf3bebc.png)
+
+Выбираем любой Source Code и после распаковываем
+![image](https://user-images.githubusercontent.com/59537160/232196394-ade04487-6811-4661-9573-c7290b0aff1a.png)
+
+
 ![image](https://user-images.githubusercontent.com/59537160/232195638-551fb607-1d0e-4322-b3a4-35075bdd2890.png)
 
 Пример исользования:
