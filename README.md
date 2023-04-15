@@ -2,6 +2,11 @@
 
 Консольная программа, которая не умеет варить кофе, но умеет считать характерные точки (ХТ) для ландшафта
 
+
+Иконка взята отсюда:
+<a href="https://www.flaticon.com/free-icons/alphabet" title="alphabet icons">Alphabet icons created by Freepik - Flaticon</a>
+
+
 Установка:
 Шаг 1
 ![image](https://user-images.githubusercontent.com/59537160/232196202-5da1695a-abf5-483f-acf2-bebfd9f67c90.png)
