@@ -13,7 +13,7 @@ print("Автор: mgostev.it@gmail.com\n")
 print("Обо всех багах пишите на почту - буду фиксить")
 print("Git-Hub программки: https://github.com/Butaforsky/arc \n\n")
 
-print("Для выхода введите '0' (ноль)")
+
 
 with open('points.csv', mode='w', newline='') as csv_file:
     fieldnames = ['Базовая точка', "Характерная точка", 'Уклон', 'Индекс']
@@ -24,7 +24,7 @@ with open('points.csv', mode='w', newline='') as csv_file:
       
       print("Введите высоты точек в метрах, используйте точку, а не запятую!")
       print("По - умолчанию расстояние между точками равно 50 м\n")
-      
+      print("Для сохранения csv и выхода введите '0' (ноль)")
       base_point = float(input("Первая точка, м: "))
       if(base_point == 0):
         exit()
