@@ -12,12 +12,12 @@ print("Git-Hub программки: https://github.com/Butaforsky/arc \n\n")
 
 while(base_point != 0):
   
-  base_point = float(input("Первая точка: "))
+  base_point = float(input("Первая точка, м: "))
   if(base_point == 0):
     exit()
-  xt_point = float(input("Вторая точка: "))
+  xt_point = float(input("Вторая точкаб м: "))
   try:
-     l = float(input("Длина: "))
+     l = float(input("Длинаб м: "))
   except: 
      l = 50
      pass
